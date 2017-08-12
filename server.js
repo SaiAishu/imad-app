@@ -44,7 +44,7 @@ function template(data){
  var titlehere=data.title;
  var contenthere=data.content;
  
- result= `<html>
+ var result= `<html>
 <title>${titlehere}</title>
 <meta name="viewport" content="width=device-width , initial-scale=1"/>
 <link href="ui/style.css" rel="stylesheet"/> 
