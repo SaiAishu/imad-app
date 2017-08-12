@@ -19,4 +19,10 @@ body {
 .img-medium {
     height: 200px;
 }
+    .one {
+max-width : fit-content;
+margin : auto;
+font-family : sans-serif;
+padding-top : 60;
+}
 
