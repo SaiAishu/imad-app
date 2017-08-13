@@ -8,7 +8,7 @@ var img=document.getElementById('madi');
 
 var mar=0;
 function move(){
-    mar+=20;
+    mar+=50;
     img.style.marginLeft=mar+'px';
 }
 
