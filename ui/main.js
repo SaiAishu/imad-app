@@ -8,12 +8,12 @@ var img=document.getElementById('madi');
 
 var mar=0;
 function move(){
-    mar+=10;
+    mar+=20;
     img.style.marginLeft=mar+'px';
 }
 
 img.onclick = function (){
   //  img.style.marginLeft = '200px';
-    setInterval(move,50);
+    setInterval(move,100);
     
 };
