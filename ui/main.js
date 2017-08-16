@@ -21,6 +21,6 @@ var ctr=document.getElementById("ctr");
 ctr.onclick=function(){
   
   counter+=1;
-  inc.innerHtml=counter.toString();
+  inc.innerHTML=counter.toString();
     
 };
