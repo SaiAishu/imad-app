@@ -17,7 +17,7 @@ img.onclick = function (){
 //Counter Code
 var counter=0;
 var inc=document.getElementById("inc");
-var ctr=document.getElementbyId("ctr");
+var ctr=document.getElementById("ctr");
 ctr.onclick=function(){
   
   counter+=1;
