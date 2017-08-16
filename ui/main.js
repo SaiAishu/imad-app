@@ -15,12 +15,19 @@ img.onclick = function (){
 };
 
 //Counter Code
-var counter=0;
-var inc=document.getElementById("inc");
-var ctr=document.getElementById("ctr");
-ctr.onclick=function(){
-  
-  counter+=1;
-  inc.innerHTML=counter.toString();
+var request = new XMLHTTPRequest();
+
+request.open('GET','https://http://ksaiaishwarya.imad.hasura-app.io/counter',true);
+request.send(null);
+
+request.onreadystatechange=function(){
+    
+    if(request.readyState===DONE){
+        if(request.status===200){
+            var ctr=request.responseText;
+            var span=document.getElementById('inc');
+            span.innerHTML=ctr;
+        }
+    }
     
 };
