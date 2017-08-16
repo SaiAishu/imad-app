@@ -41,7 +41,7 @@ request.onreadystatechange=function(){
             var name=request.responseText;
             var list='';
             var name1=JSON.parse(name);
-            for(var i=name1.length; i>=0 ;i-=1 ){
+            for(var i=name1.length-1; i>=0 ;i-=1 ){
                 list += '<li>'+name1[i]+'</li>';
             }
             var ul=document.getElementById('list');
