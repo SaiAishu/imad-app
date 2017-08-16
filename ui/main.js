@@ -17,8 +17,6 @@ img.onclick = function (){
 //Counter Code
 var request = new XMLHTTPRequest();
 
-request.open('GET','https://http://ksaiaishwarya.imad.hasura-app.io/counter',true);
-request.send(null);
 
 request.onreadystatechange=function(){
     
@@ -31,3 +29,6 @@ request.onreadystatechange=function(){
     }
     
 };
+
+request.open('GET','https://http://ksaiaishwarya.imad.hasura-app.io/counter',true);
+request.send(null);
