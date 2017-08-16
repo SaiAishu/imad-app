@@ -42,10 +42,10 @@ request.onreadystatechange=function(){
             var list='';
             var name1=JSON.parse(name);
             for(var i=0;i<name1.length;i=i+1 ){
-                list+='<li>'+name1[i]+'</li>';
+                list += '<li>'+name1[i]+'</li>';
             }
             var ul=document.getElementById('ul');
-            ul.value=list;
+            ul.innerHTML = list;
         }
     }
 };
