@@ -16,8 +16,8 @@ img.onclick = function (){
 
 //Counter Code
 var request = new XMLHTTPRequest();
-
-
+var cntr=document.getElementById('ctr');
+cntr.onclick = function(){
 request.onreadystatechange=function(){
     
     if(request.readyState===DONE){
@@ -32,3 +32,4 @@ request.onreadystatechange=function(){
 
 request.open('GET','https://http://ksaiaishwarya.imad.hasura-app.io/counter',true);
 request.send(null);
+};
