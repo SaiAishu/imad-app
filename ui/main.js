@@ -18,9 +18,7 @@ img.onclick = function (){
 var cntr=document.getElementById('ctr');
 cntr.onclick = function(){
 var request = new XMLHttpRequest();
-
 request.onreadystatechange=function(){
-    
     if(request.readyState===XMLHttpRequest.DONE){
         if(request.status===200){
             var ctr=request.responseText;
@@ -28,9 +26,24 @@ request.onreadystatechange=function(){
             span.innerHTML=ctr;
         }
     }
-    
+};
+request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/counter',true);
+request.send(null);
 };
 
+//Name update
+var sub=document.getElementById('give');
+sub.onclick = function(){
+var request = new XMLHttpRequest();
+request.onreadystatechange=function(){
+    if(request.readyState===XMLHttpRequest.DONE){
+        if(request.status===200){
+            var list=request.responseText;
+            var span=document.getElementById('inc');
+            span.innerHTML=ctr;
+        }
+    }
+};
 request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/counter',true);
 request.send(null);
 };
