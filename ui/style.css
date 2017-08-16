@@ -22,7 +22,7 @@ body {
 }
     .one {
 max-width : 800px;
-margin : auto;
+//margin : auto;
 font-family : sans-serif;
 padding-top : 60;
 }
