@@ -70,13 +70,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var names=[];
+/*var names=[];
 app.get('/input-name',function(req,res){
     var name=req.query.name;
     names.push(name);
     res.send(JSON.stringify(names));
 });
-
+*/
 app.get('/:articlename',function(req,res){
     var articlename=req.params.articlename;
     res.send(template(articles[articlename]));
