@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 alert('Page has loaded');
 
-document.getElementById('txt').innerHTML='Showing Progress';
+//document.getElementById('txt').innerHTML='Showing Progress';
 
 var img=document.getElementById('madi');
 
