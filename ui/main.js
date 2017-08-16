@@ -49,7 +49,7 @@ request.onreadystatechange=function(){
         }
     }
 };
-var n=document.getElementById('name').innerHTML;
+var n=document.getElementById('name').value;
 request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/input-name?name='+n,true);
 request.send(null);
 };
