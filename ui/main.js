@@ -31,6 +31,6 @@ request.onreadystatechange=function(){
     
 };
 
-request.open('GET','https://http://ksaiaishwarya.imad.hasura-app.io/counter',true);
+request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/counter',true);
 request.send(null);
 };
