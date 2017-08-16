@@ -38,12 +38,18 @@ var request = new XMLHttpRequest();
 request.onreadystatechange=function(){
     if(request.readyState===XMLHttpRequest.DONE){
         if(request.status===200){
-            var list=request.responseText;
-            var span=document.getElementById('inc');
-            span.innerHTML=ctr;
+            var name=request.responseText;
+            var list='';
+            var name1=JSON.parse(name);
+            for(var i=0;i<name1.length;i=i+1 ){
+                list+='<li>'+name1[i]+'</li>';
+            }
+            var ul=document.getElementById('ul');
+            ul.innerHTML=list;
         }
     }
 };
-request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/counter',true);
+var n=document.getElementById('name').innerHTML;
+request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/input-name?name='+n,true);
 request.send(null);
 };
