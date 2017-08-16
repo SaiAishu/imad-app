@@ -17,7 +17,7 @@ img.onclick = function (){
 //Counter Code
 var cntr=document.getElementById('ctr');
 cntr.onclick = function(){
-var request = new XMLHTTPRequest();
+var request = new XMLHttpRequest();
 
 request.onreadystatechange=function(){
     
