@@ -39,9 +39,9 @@ request.onreadystatechange=function(){
     if(request.readyState===XMLHttpRequest.DONE){
         if(request.status===200){
             var name=request.responseText;
-            var list;
+            var list='';
             var name1=JSON.parse(name);
-            for(var i=0;i<name1.length;i=i+1 ){
+            for(var i=name1.length; i>=0 ;i-=1 ){
                 list += '<li>'+name1[i]+'</li>';
             }
             var ul=document.getElementById('list');
