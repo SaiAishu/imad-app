@@ -49,7 +49,8 @@ request.onreadystatechange=function(){
         }
     }
 };
-var n=document.getElementById('name').value;
+var n1=document.getElementById('name')
+var n=n1.value;
 request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/input-name?name='+n,true);
 request.send(null);
 };
