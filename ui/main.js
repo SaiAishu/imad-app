@@ -15,10 +15,10 @@ img.onclick = function (){
 };
 
 //Counter Code
-var request = new XMLHTTPRequest();
 var cntr=document.getElementById('ctr');
 cntr.onclick = function(){
 request.onreadystatechange=function(){
+var request = new XMLHTTPRequest();
     
     if(request.readyState===DONE){
         if(request.status===200){
