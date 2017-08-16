@@ -44,7 +44,7 @@ request.onreadystatechange=function(){
             for(var i=0;i<name1.length;i=i+1 ){
                 list += '<li>'+name1[i]+'</li>';
             }
-            var ul=document.getElementById('ul');
+            var ul=document.getElementById('list');
             ul.innerHTML = list;
         }
     }
