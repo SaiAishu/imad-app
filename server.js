@@ -65,6 +65,10 @@ counter+=1;
   res.send(counter.toString());
 });
 
+app.get('/quiz', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'quiz.html'));
+});
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
