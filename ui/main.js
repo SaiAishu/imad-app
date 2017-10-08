@@ -54,3 +54,12 @@ var n=n1.value;
 request.open('GET','http://ksaiaishwarya.imad.hasura-app.io/input-name?name='+n,true);
 request.send('');
 };
+
+
+//QUIZZ
+var main=function(){
+    $('.icon-menu').click(function(){
+        $('.menu').animate({left:'0px'},200);
+    });
+};
+$(document).ready(main);
