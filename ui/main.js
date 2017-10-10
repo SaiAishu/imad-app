@@ -60,7 +60,7 @@ request.send('');
 
 function ani(){
         $('.menu').animate({left:'0px'},200);
-        $(body).animate({left:'256px'},200);
+        $('body').animate({left:'256px'},200);
     }
 
 var main=function(){
