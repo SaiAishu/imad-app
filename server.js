@@ -105,3 +105,11 @@ var port = 80;
 app.listen(port, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
+
+
+var main=function(){
+    $('.icon-menu').click(function(){
+        $('.menu').animate({left:'0px'},200);
+    });
+};
+$(document).ready(main);
