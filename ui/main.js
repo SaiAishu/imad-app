@@ -63,7 +63,8 @@ function ani(){
         $('body').animate({left:'256px'},200);
     }
 
-var main=function(){
-    $('.icon-menu').click(ani());
-};
-$(document).ready(main);
+function closemenu(){
+    $('.menu').animate({left:'-256px'},200);
+    $('body').animate({left:'0px'},200);
+    
+}
