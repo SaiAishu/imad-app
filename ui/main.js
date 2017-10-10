@@ -57,6 +57,11 @@ request.send('');
 
 
 //QUIZZ
+
+function ani(){
+        $('.menu').animate({left:'258px'},200);
+    }
+
 var main=function(){
     $('.icon-menu').click(function(){
         $('.menu').animate({left:'258px'},200);
