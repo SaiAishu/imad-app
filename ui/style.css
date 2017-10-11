@@ -118,10 +118,10 @@ body {
   color: #222;
    cursor: pointer;
   background: rgba(255,255,255,.9);
-  border-spacing: 2px;
+  border-spacing: 3px;
   border-color: gray;
   font-family: arial,sans-serif;
-  border-bottom: 1px #e5e5e5 solid;
+  border-bottom: 2px #e5e5e5 solid;
 }
 
 .qlist {
