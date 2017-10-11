@@ -18,7 +18,22 @@ $('.icon-close').click( function(){
        $(this).addClass('current');
        $(this).children('.desc').removeClass('current');
    });
-   $('.')
+   $('.listlink').click(
+       $('qlist').content=`<div class="qname current">India
+<div class="desc">This is the india quiz</div>
+</div>
+<div class="qname">Canada
+<div class="desc">This is the canada quiz</div>
+</div>
+<div class="qname">England
+<div class="desc">This is the uk quiz</div>
+</div>
+<div class="qname">GreenLand
+<div class="desc">This is the gl quiz</div>
+
+</div>`
+
+       );
 };
 
 $(document).ready(main)
