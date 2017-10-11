@@ -12,6 +12,7 @@ $('.icon-close').click( function(){
     
 });
    $('.qname').click(function(){
+       $('.desc').hide();
        $(this).children('.desc').show();
    }); 
 };
