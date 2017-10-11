@@ -11,7 +11,7 @@ $('.icon-close').click( function(){
     $('body').animate({left:'0px'},200);
     
 });
-    
+   $() 
 };
 
 $(document).ready(main)
