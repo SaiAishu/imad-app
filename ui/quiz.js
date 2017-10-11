@@ -19,7 +19,7 @@ $('.icon-close').click( function(){
        $(this).children('.desc').removeClass('current');
    });
    $('.listlink').click(
-       $('qlist').content=`<div class="qname current">India
+       $('qlist').html(`<div class="qname current">India
 <div class="desc">This is the india quiz</div>
 </div>
 <div class="qname">Canada
@@ -31,7 +31,7 @@ $('.icon-close').click( function(){
 <div class="qname">GreenLand
 <div class="desc">This is the gl quiz</div>
 
-</div>`
+</div>`)
 
        );
 };
