@@ -1,4 +1,4 @@
-  $('.listlink').click(
+  function listclick(){
        $('.qlist').html(`<div class="qname current">India
 <div class="desc">This is the india quiz</div>
 </div>
@@ -13,7 +13,7 @@
 
 </div>`)
 
-       );
+  }
 
 var main=function(){
     $('.jumbotron').click(function (){
