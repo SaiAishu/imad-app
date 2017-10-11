@@ -11,7 +11,9 @@ $('.icon-close').click( function(){
     $('body').animate({left:'0px'},200);
     
 });
-   $() 
+   $('.qname').click(function(){
+       $(this).children('.desc').show();
+   }); 
 };
 
 $(document).ready(main)
