@@ -17,7 +17,8 @@ $('.icon-close').click( function(){
        $(this).children('.desc').show();
        $(this).addClass('current');
        $(this).children('.desc').removeClass('current');
-   }); 
+   });
+   $('.')
 };
 
 $(document).ready(main)
