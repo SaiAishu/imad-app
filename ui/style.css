@@ -116,7 +116,10 @@ body {
   background: rgba(255,255,255,.9);
   border-spacing: 2px;
   border-color: gray;
-  margin: 30px 30px 30px 30px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  margin-left:30px;
+  margin-right:30px;
   font-family: arial,sans-serif;
   border-bottom: 1px #e5e5e5 solid;
 }
