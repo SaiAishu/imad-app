@@ -17,7 +17,7 @@ $(document).ready(main)
 
 
 var main=function(){
-    $('.jumbotron').click(function (){
+    $('.icon-menu').click(function (){
         $('.menu').animate({left:'0px'},200);
         $('body').animate({left:'265px'},200);
     });
