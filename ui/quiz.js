@@ -15,6 +15,14 @@
 
   }
 
+ $('.qname').click(function(){
+       $('.desc').hide();
+       $('.qname').removeClass('current');
+       $(this).children('.desc').show();
+       $(this).addClass('current');
+       $(this).children('.desc').removeClass('current');
+   });
+
 var main=function(){
     $('.jumbotron').click(function (){
         $('.menu').animate({left:'0px'},200);
