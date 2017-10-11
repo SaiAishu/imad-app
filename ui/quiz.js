@@ -12,16 +12,9 @@
 <div class="desc">This is the gl quiz</div>
 
 </div>`)
-
+$(document).ready(main)
   }
 
- $('.qname').click(function(){
-       $('.desc').hide();
-       $('.qname').removeClass('current');
-       $(this).children('.desc').show();
-       $(this).addClass('current');
-       $(this).children('.desc').removeClass('current');
-   });
 
 var main=function(){
     $('.jumbotron').click(function (){
