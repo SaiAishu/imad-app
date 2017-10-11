@@ -125,3 +125,11 @@ body {
   margin-bottom: 30px;
   box-sizing:border-box;
 }
+
+.desc{
+    display:none;
+ margin-top: 5px;
+  margin-bottom: 5px;
+ 
+    
+}
