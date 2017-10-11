@@ -81,11 +81,11 @@ body {
   line-height: 45px;
   padding-bottom: 3px;
   padding-left: 20px;
+  font-size: 15px;
   padding-top: 3px;
 }
 
 .menu a {
-  color: #fff;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
