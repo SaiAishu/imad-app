@@ -37,6 +37,13 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQ-3Ja1yCHIUENJZb7th2X0X6fsHKPxpY5kL6gKCxWWliEbwv'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
 }
 
 /* Initial menu */
