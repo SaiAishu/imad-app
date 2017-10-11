@@ -13,7 +13,9 @@ $('.icon-close').click( function(){
 });
    $('.qname').click(function(){
        $('.desc').hide();
+       $('.qname').removeClass('current');
        $(this).children('.desc').show();
+       $(this).addClass('current');
    }); 
 };
 
