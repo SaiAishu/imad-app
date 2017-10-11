@@ -16,6 +16,7 @@ $('.icon-close').click( function(){
        $('.qname').removeClass('current');
        $(this).children('.desc').show();
        $(this).addClass('current');
+       $(this).children('.desc').removeClass('current');
    }); 
 };
 
