@@ -115,19 +115,23 @@ body {
 }
 
 .qname {
+
   color: #222;
-   cursor: pointer;
+  cursor: pointer;
   background: rgba(255,255,255,.9);
   border-spacing: 3px;
   border-color: gray;
   font-family: arial,sans-serif;
   border-bottom: 2px #e5e5e5 solid;
+  padding-left:20px;
+  padding-top:7px;
+  padding-bottom:7px;
 }
-
 .qlist {
   margin-top: 30px;
   margin-bottom: 30px;
-  box-sizing:border-box;
+  padding:35px;
+  width:500px;
 }
 
 .desc{
